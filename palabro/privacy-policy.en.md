@@ -1,145 +1,191 @@
 # Privacy Policy — PalaBro
 
-  **Last updated: May 26, 2026**
+**Last updated: June 16, 2026**
 
-  This policy describes the data handled by the **PalaBro** application
-  ("the app", "we"), published by **MisCo Apps**, and how we handle it.
-  By using the app you accept this policy.
+> **Internal note:** this file is the **English master template** drafted
+> in the 2026-05-26 session and updated on 2026-06-16 (added Crashlytics
+> and Play Games, and in-app consent withdrawal). Content to paste into
+> `MiscoApps/MiscoApps.github.io` as `palabro/privacy-policy.en.md`.
+> Final public URL: `https://miscoapps.github.io/palabro/privacy-policy.en`.
 
-  ## 1. Data controller
+This policy describes the data handled by the **PalaBro** application
+("the app", "we"), published by **MisCo Apps**, and how we handle it.
+By using the app you accept this policy.
 
-  - **Controller:** MisCo Apps (individual publisher).
-  - **Contact:** miscoapps@gmail.com
+## 1. Data controller
 
-  ## 2. Data we DO NOT collect
+- **Controller:** MisCo Apps (individual publisher).
+- **Contact:** miscoapps@gmail.com
 
-  PalaBro **does not require registration or a user account**. We do not
-  collect or store on external servers:
+## 2. Data we DO NOT collect
 
-  - Name, email, phone, or any other personally identifying information.
-  - Passwords (there is no login).
-  - Contacts, photos, precise location, microphone or camera data.
-  - Browsing history outside the app.
+PalaBro **does not require registration or a user account**. We do not
+collect or store on our own servers:
 
-  ## 3. Data stored locally on your device
+- Name, email, phone, or any other personally identifying information.
+- Passwords (there is no login).
+- Contacts, photos, precise location, microphone or camera data.
+- Browsing history outside the app.
 
-  All gameplay information is stored **only on your device** through
-  local storage (Hive). It is not transmitted to any server controlled by
-  us. This includes:
+Some third-party providers (Google) do process certain technical data
+from your device when ads are shown, crashes are reported, or
+achievements are synced. This is detailed in sections 5, 7, and 8.
 
-  - Current level, completed levels, daily puzzle progress.
-  - App settings (music, sound effects, language, colorblind mode,
-    notifications, haptics).
-  - Daily puzzle streak and date of the last completed challenge.
-  - Number of remaining hints.
+## 3. Data stored locally on your device
 
-  This data is deleted if you uninstall the app or clear its data through
-  your system settings.
+All gameplay information is stored **only on your device** through
+local storage (Hive). It is not transmitted to any server controlled by
+us. This includes:
 
-  ## 4. Local notifications
+- Current level, completed levels, daily puzzle progress.
+- App settings (music, sound effects, language, colorblind mode,
+  notifications, haptics).
+- Daily puzzle streak and date of the last completed challenge.
+- Coin balance and number of remaining hints.
 
-  If you enable notifications, the app schedules **local reminders** (at
-  20:00 local time) for the daily challenge using the operating system's
-  native API. They are not sent through external servers: your device
-  schedules and displays them. You can disable them at any time from the
-  app's Settings or from your system settings.
+This data is deleted if you uninstall the app or clear its data through
+your system settings.
 
-  ## 5. Advertising (Google AdMob)
+## 4. Local notifications
 
-  PalaBro shows ads through **Google AdMob** to sustain development.
-  AdMob is a service provided by Google LLC. To serve ads, AdMob may
-  collect the following data from your device:
+If you enable notifications, the app schedules **local reminders** (at
+20:00 local time) for the daily challenge using the operating system's
+native API. They are not sent through external servers: your device
+schedules and displays them. You can disable them at any time from the
+app's Settings or from your system settings.
 
-  - **Advertising identifier** (Advertising ID on Android, IDFA on iOS):
-    a non-permanent code that you can reset or disable from your system
-    settings.
-  - **Device information:** model, operating system, language, connection
-    type, screen resolution.
-  - **IP address** (used for approximate country/region location).
-  - **Ad interactions:** impressions, clicks, viewing time.
+## 5. Advertising (Google AdMob)
 
-  This data is collected and processed by Google directly, not by us.
-  Google's privacy policy and ad controls are available at:
-  [https://policies.google.com/technologies/ads](https://policies.google.com/technologies/ads).
+PalaBro shows ads through **Google AdMob** to sustain development.
+AdMob is a service provided by Google LLC. To serve ads, AdMob may
+collect the following data from your device:
 
-  ### Personalized vs non-personalized ads
+- **Advertising identifier** (Advertising ID on Android, IDFA on iOS):
+  a non-permanent code that you can reset or disable from your system
+  settings.
+- **Device information:** model, operating system, language, connection
+  type, screen resolution.
+- **IP address** (used for approximate country/region location).
+- **Ad interactions:** impressions, clicks, viewing time.
 
-  - **In the European Economic Area, the United Kingdom, and Switzerland:**
-    the first time you open the app, we show a consent form (Google UMP)
-    where you can accept personalized ads or limit them to
-    non-personalized ones. You may revoke your consent through your
-    system settings at any time.
-  - **On iOS:** in addition to the above consent, iOS requests permission
-    for cross-app tracking (App Tracking Transparency). If denied, ads
-    will be non-personalized.
-  - **Rest of the world:** personalized ads are served by default, with
-    the option to opt out by changing your operating system's ad
-    settings.
+This data is collected and processed by Google directly, not by us.
+Google's privacy policy and ad controls are available at:
+[https://policies.google.com/technologies/ads](https://policies.google.com/technologies/ads).
 
-  ## 6. Rewarded ads
+### Personalized vs non-personalized ads
 
-  The app offers optional ads the user may watch voluntarily to gain an
-  extra hint or recover a lost daily streak. These ads are **user-initiated**
-  (never forced) and follow the same AdMob rules described above.
+- **In the European Economic Area, the United Kingdom, and Switzerland:**
+  the first time you open the app, we show a consent form (Google UMP)
+  where you can accept personalized ads or limit them to
+  non-personalized ones. You can change or withdraw your choice at any
+  time from **Settings → "Manage consent"** in the app, or from your
+  system's ad settings.
+- **On iOS:** in addition to the above consent, iOS requests permission
+  for cross-app tracking (App Tracking Transparency). If denied, ads
+  will be non-personalized.
+- **Rest of the world:** personalized ads are served by default, with
+  the option to opt out by changing your operating system's ad
+  settings.
 
-  ## 7. In-app purchases
+## 6. Rewarded ads
 
-  The current version **does not include in-app purchases**. Future
-  versions may add an option to purchase hint packs; in that case,
-  purchases are processed through the **Apple App Store** (iOS) or
-  **Google Play** (Android) and are governed by their respective
-  policies. We do not receive card or payment data — we only receive
-  confirmation that the purchase took place.
+The app offers optional ads the user may watch voluntarily to gain
+coins, an extra hint, or recover a lost daily streak. These ads are
+**user-initiated** (never forced) and follow the same AdMob rules
+described above.
 
-  ## 8. Children
+## 7. Crash reporting (Firebase Crashlytics)
 
-  PalaBro **is not directed at children under 13 years of age**. We do
-  not knowingly collect personal data from children. If you believe a
-  child has provided us with data, please contact us and we will delete
-  it.
+To detect and fix errors, the app uses **Firebase Crashlytics**, a
+service provided by Google LLC. When the app crashes or hits a serious
+error, Crashlytics automatically collects:
 
-  ## 9. Your rights (GDPR)
+- The **technical crash log** (stack trace) and the app's state at that
+  moment.
+- **Device information:** model, manufacturer, operating system version,
+  language, available memory and storage.
+- The **app version** and the time elapsed until the crash.
+- An **installation identifier** generated by Crashlytics, not linked to
+  your identity, which is deleted when you uninstall the app.
 
-  As a user in the European Union, United Kingdom, or Switzerland, you
-  have the right to:
+This data is used **only** to diagnose and fix errors; it is not used
+for advertising purposes and is not sold to third parties. We do not
+collect personally identifying data through Crashlytics. Collection is
+disabled in development builds. More information:
+[https://firebase.google.com/support/privacy](https://firebase.google.com/support/privacy).
 
-  - **Access:** know what data we have about you (in our case, none,
-    because everything is local on your device).
-  - **Rectification:** correct inaccurate data.
-  - **Erasure ("right to be forgotten"):** uninstall the app or clear
-    its data from your system settings; that removes everything we
-    store.
-  - **Objection and restriction of processing:** withdraw AdMob consent
-    through your operating system or uninstall the app.
-  - **Data portability:** not applicable, as we do not store your data
-    on our servers.
-  - **Lodge a complaint:** with your country's data protection
-    authority. In Spain, the [Agencia Española de Protección de Datos](https://www.aepd.es).
+## 8. Achievements (Google Play Games)
 
-  To exercise any right, write to us at **miscoapps@gmail.com**.
+The app offers an **achievements** system that you can **optionally**
+sync with **Google Play Games** (a service provided by Google LLC). This
+connection is **voluntary**: it is only activated if you sign in to Play
+Games from within the app. If you do, Google processes your Play Games
+player identifier to save and display your achievements. If you do not
+sign in, achievements are stored only on your device. You can manage or
+unlink your account from the Google Play Games app or from your Google
+account settings. Google's policy:
+[https://policies.google.com/privacy](https://policies.google.com/privacy).
 
-  ## 10. International transfers
+## 9. In-app purchases
 
-  AdMob is a service of Google LLC, headquartered in the United States.
-  The data AdMob collects may be transferred and processed outside the
-  European Economic Area. Google relies on Standard Contractual Clauses
-  approved by the European Commission for these transfers.
+The current version **does not include in-app purchases**. Future
+versions may add an option to purchase coin or hint packs; in that case,
+purchases are processed through the **Apple App Store** (iOS) or
+**Google Play** (Android) and are governed by their respective
+policies. We do not receive card or payment data — we only receive
+confirmation that the purchase took place.
 
-  ## 11. Security
+## 10. Children
 
-  All gameplay information is stored locally on your device using the
-  operating system's standard storage mechanisms. Communication with
-  AdMob is performed over HTTPS.
+PalaBro **is not directed at children under 13 years of age**. We do
+not knowingly collect personal data from children. If you believe a
+child has provided us with data, please contact us and we will delete
+it.
 
-  ## 12. Changes to this policy
+## 11. Your rights (GDPR)
 
-  We may update this policy occasionally. The "Last updated" date at the
-  top reflects the current version. Significant changes will be
-  announced in the next app update.
+As a user in the European Union, United Kingdom, or Switzerland, you
+have the right to:
 
-  ## 13. Contact
+- **Access:** know what data we have about you (in our case, none stored
+  by us, because everything is local on your device).
+- **Rectification:** correct inaccurate data.
+- **Erasure ("right to be forgotten"):** uninstall the app or clear
+  its data from your system settings; that removes everything we
+  store locally.
+- **Objection and restriction of processing:** withdraw AdMob consent
+  from **Settings → "Manage consent"** in the app or through your
+  operating system, or uninstall the app.
+- **Data portability:** not applicable, as we do not store your data
+  on our servers.
+- **Lodge a complaint:** with your country's data protection
+  authority. In Spain, the [Agencia Española de Protección de Datos](https://www.aepd.es).
 
-  For any questions about this policy or about how your data is
-  processed, write to us at:
+To exercise any right, write to us at **miscoapps@gmail.com**.
 
-  **miscoapps@gmail.com**
+## 12. International transfers
+
+AdMob, Firebase Crashlytics, and Play Games are services of Google LLC,
+headquartered in the United States. The data these services collect may
+be transferred and processed outside the European Economic Area. Google
+relies on Standard Contractual Clauses approved by the European
+Commission for these transfers.
+
+## 13. Security
+
+All gameplay information is stored locally on your device using the
+operating system's standard storage mechanisms. Communication with
+AdMob, Crashlytics, and Play Games is performed over HTTPS.
+
+## 14. Changes to this policy
+
+We may update this policy occasionally. The "Last updated" date at the
+top reflects the current version. Significant changes will be
+announced in the next app update.
+
+## 15. Contact
+
+For any questions about this policy or about how your data is
+processed, write to us at:
+
+**miscoapps@gmail.com**
