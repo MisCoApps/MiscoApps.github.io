@@ -1,58 +1,155 @@
-# Política de Privacidad - Friendly Contact Reminder
+# Política de Privacidad — Friendly Contact Reminder
 
-## 1. Visión General del Producto
-**Descripción:** Aplicación móvil (iOS y Android) diseñada como un "Personal CRM" (Customer Relationship Management personal) que ayuda a los usuarios a mantener el contacto regular con sus amigos, familiares o red profesional. 
-**Objetivo Principal:** Mandar notificaciones automáticas y configurables a modo de recordatorio para llamar o mensajear a contactos específicos.
-**Público Objetivo:** Profesionales enfocados en networking, expatriados que quieren mantener el contacto con su país de origen o cualquier persona que desee cuidar sus relaciones personales de forma metódica.
+**Última actualización: 8 de agosto de 2026**
 
-## 2. Alcance del Proyecto (Producto Mínimo Viable - MVP)
-El MVP se enfocará en las funcionalidades core de recordatorios, operando de manera 100% local en el dispositivo del usuario para garantizar la privacidad y reducir los costes iniciales de infraestructura en la nube. 
+Esta política explica qué datos trata la aplicación **Contact Reminder** ("la
+aplicación", "nosotros"), publicada por **MisCo Apps**, y cómo lo hace.
+Al usar la aplicación aceptas esta política.
 
-**Fuera de alcance para el MVP:** 
-- Sincronización en la nube y creación de cuentas de usuario.
-- Analíticas avanzadas de red de contactos.
+## 1. Responsable del tratamiento
 
-## 3. Requisitos Funcionales y Lógica de Negocio
+- **Responsable:** MisCo Apps (publisher individual).
+- **Contacto:** miscoapps@gmail.com
 
-### 3.1. Gestión y Sincronización de Contactos
-- **Permisos:** La app solicitará permiso de lectura de la agenda nativa (`READ_CONTACTS` en Android, `Contacts` en iOS).
-- **Importación Selectiva:** No se importará la agenda completa. El usuario seleccionará de una lista a qué personas quiere añadir a su Personal CRM.
-- **Sincronización Unidireccional en Tiempo Real:** Si el usuario edita o borra un contacto en la app nativa de su teléfono, la aplicación debe buscar el ID único del contacto nativo y actualizar los datos (nombre, foto, número) cada vez que la app se abra.
+## 2. Resumen: todo se queda en tu dispositivo
 
-### 3.2. Configuración de Recordatorios y Frecuencias
-- **Agrupación:** El usuario podrá crear grupos (ej. "Familia", "Networking") y asignarles una frecuencia general (ej. "Cada 15 días").
-- **Reglas Individuales:** El usuario podrá configurar frecuencias específicas por persona (ej. "Cada 7 días") o agendar un aviso para un día/hora concretos.
-- **Gestión de Colisiones:** Si un contacto pertenece a un grupo y a la vez tiene una regla individual, el sistema debe fusionar la notificación. Al intentar crear una regla que solape, la app mostrará un *pop-up*: *"Este contacto ya tiene una recurrencia por el grupo X. ¿Deseas mantener ambas o que la individual reemplace a la del grupo?"*.
-- **Fechas Fijas:** Posibilidad de añadir eventos fijos anuales, como cumpleaños o aniversarios.
+Contact Reminder **no tiene servidores propios ni se conecta a ninguno**. No
+incluye publicidad, ni analítica, ni informes de fallos, ni ningún componente
+que envíe información fuera del teléfono.
 
-### 3.3. Interacción, Notificaciones y Cierre de Ciclos
-- **Acciones Rápidas (Deep Links):** Las notificaciones *push* incluirán dos botones nativos: "Llamar" y "Mandar WhatsApp". Al pulsarlos, se abrirá la aplicación correspondiente.
-- **Snooze / Persistencia:** Si el usuario ignora un recordatorio, este no se descarta. La alerta se pospone y volverá a avisar al día siguiente hasta que el usuario interactúe.
-- **Reinicio Automático (El Cierre del Bucle):**
-  - **Android:** Se usará el permiso `READ_CALL_LOG` (sujeto a aprobación de Google Play) para detectar llamadas salientes a ese número y reiniciar el contador automáticamente.
-  - **iOS/General:** Como iOS bloquea por *Sandboxing* la lectura del historial telefónico y de WhatsApp de terceros, el sistema asumirá que el contacto se ha realizado —y reiniciará el contador— **en el momento en que el usuario pulse el botón de "Llamar" o "WhatsApp"** desde la notificación o desde dentro de la propia app.
+En particular, **tu agenda de contactos nunca sale de tu dispositivo**. La
+aplicación la lee para funcionar y la guarda localmente; nosotros no la
+recibimos, no la vemos y no podemos recuperarla.
 
-### 3.4. Ficha de Contacto (Perfil Extendido)
-- **Notas Contextuales:** Campo de texto libre para que el usuario apunte de qué se habló en la última interacción (ej. *"Preguntar por su nuevo perro"*).
-- **Historial de Interacciones:** Registro visual cronológico (*timeline*) donde la app guardará cuándo fue la última vez que se hizo tap en "Llamar/WhatsApp" o se marcó manualmente como contactado.
+## 3. Datos que NO recogemos
 
-## 4. Arquitectura Técnica
-- **Plataforma:** Desarrollo híbrido mediante **Flutter** o **React Native** para lanzar en iOS y Android compartiendo código base.
-- **Almacenamiento Local (MVP):** Toda la base de datos de grupos, contadores y notas se guardará localmente en el dispositivo usando **SQLite** o **Realm**. 
-- **Notificaciones:** Programación de notificaciones locales a través de los sistemas nativos (`UNUserNotificationCenter` en iOS, `WorkManager/AlarmManager` en Android). No se requiere servidor externo para *push notifications* en esta fase.
+Contact Reminder **no requiere registro ni cuenta de usuario**. No recogemos ni
+almacenamos en servidores propios:
 
-## 5. Monetización (Modelo Freemium)
-La aplicación será de descarga gratuita con un muro de pago (*Paywall*) y publicidad para generar ingresos.
+- Nombre, email, teléfono ni otros datos de identificación personal.
+- Contraseñas (no hay sistema de login).
+- Tu agenda de contactos, ni ningún dato derivado de ella.
+- Ubicación, micrófono o cámara (la aplicación no pide estos permisos).
+- Identificadores publicitarios, ya que no mostramos anuncios.
 
-*   **Versión Free:** 
-    *   Inclusión de banners de publicidad nativa (Google AdMob o similar).
-    *   Límites funcionales: Máximo 2 grupos creados y límite de X contactos importados al Personal CRM.
-*   **Versión Premium (Suscripción o Pago Único):**
-    *   Eliminación total de anuncios.
-    *   Contactos y grupos ilimitados.
-    *   *Futuro:* Backup en la nube y sincronización multidispositivo.
+## 4. Acceso a tus contactos
 
-## 6. Siguientes Pasos (Hoja de Ruta)
-1.  **Wireframing/Diseño UX-UI:** Diseñar las pantallas principales (Dashboard de tareas de hoy, Lista de contactos, Ficha de contacto y Ajustes).
-2.  **Validación de Permisos:** Revisar exhaustivamente las políticas vigentes de Google Play Store para la justificación del uso de `READ_CALL_LOG` en el *tracker* de Android.
-3.  **Desarrollo MVP:** Iniciar la programación enfocándose primero en el almacenamiento local y la precisión del motor de notificaciones.
+La aplicación pide el permiso de **contactos** (`READ_CONTACTS` en Android,
+acceso a Contactos en iOS) porque es su función central: recordarte que
+contactes con las personas que tú elijas.
+
+- **Cuándo se pide:** solo cuando pulsas **Importar contacto**. Si no lo
+  concedes, el resto de la aplicación sigue funcionando.
+- **Qué se lee:** de los contactos que tú importas, se leen nombre, teléfonos y
+  correos (con sus etiquetas), la foto en miniatura y las fechas asociadas al
+  contacto (cumpleaños y aniversarios), para poder crear recordatorios.
+- **Dónde se guarda:** en una base de datos local en tu dispositivo (Isar). No
+  se transmite a ningún servidor.
+- **Qué NO se hace:** no leemos tu registro de llamadas ni tus mensajes. La
+  aplicación no declara esos permisos.
+- **Cómo revocarlo:** desde los ajustes del sistema operativo, en cualquier
+  momento. También puedes desvincular un contacto concreto desde la propia
+  aplicación, lo que borra sus datos del almacenamiento local sin tocar tu
+  agenda.
+
+## 5. Datos que se almacenan localmente en tu dispositivo
+
+Toda la información se guarda **únicamente en tu dispositivo**. Incluye:
+
+- Los contactos que has importado y sus datos (ver sección 4).
+- Tus recordatorios: frecuencia, fechas fijas, si evitan el fin de semana.
+- El historial de interacciones que registras (tipo, fecha y notas).
+- Las etiquetas que creas y a qué contactos las asignas.
+- Configuración de la aplicación (tema, idioma, horas de aviso, aplicación de
+  mensajería favorita, notificaciones activadas).
+
+Estos datos se eliminan si desinstalas la aplicación o borras sus datos desde
+los ajustes del sistema.
+
+## 6. Notificaciones locales
+
+La aplicación programa **recordatorios locales** con la API nativa del sistema
+operativo, a la hora que tú configures. No pasan por ningún servidor externo:
+tu propio dispositivo los programa y los muestra. La notificación puede incluir
+el nombre y la foto en miniatura del contacto, que se leen del almacenamiento
+local del teléfono.
+
+Puedes desactivarlas en cualquier momento desde **Ajustes** de la aplicación o
+desde la configuración del sistema.
+
+En Android, la aplicación puede pedirte el permiso de **alarmas y
+recordatorios** para que los avisos lleguen a la hora exacta que has elegido.
+Es opcional: si no lo concedes, los avisos siguen funcionando, pero el sistema
+puede retrasarlos.
+
+## 7. Apps de terceros (llamadas y mensajería)
+
+Desde la ficha de un contacto puedes iniciar una **llamada** o abrir una
+conversación en **WhatsApp, Telegram, Viber, WeChat, LINE, SMS o tu cliente de
+correo**. En ese momento el sistema operativo entrega el número de teléfono o
+el correo a la aplicación que hayas elegido, y a partir de ahí se aplica **la
+política de privacidad de esa aplicación**, no la nuestra.
+
+Nosotros no enviamos nada a esas aplicaciones por nuestra cuenta ni sabemos si
+llegas a usarlas: la acción siempre la inicias tú.
+
+## 8. Compras dentro de la aplicación
+
+La versión actual **no procesa pagos reales**. Cuando se añada la suscripción
+Premium, las compras se procesarán a través de **Google Play** (Android) o
+**Apple App Store** (iOS) y se regirán por sus respectivas políticas. Nosotros
+no recibimos ni tratamos datos de tarjeta ni de pago: solo la confirmación de
+que la compra se realizó. Esta política se actualizará antes de activar esa
+función.
+
+## 9. Menores
+
+Contact Reminder **no está dirigida a menores de 13 años**. No recogemos
+deliberadamente datos personales de menores. Si crees que un menor nos ha
+proporcionado datos, contacta con nosotros y los eliminaremos.
+
+## 10. Tus derechos (GDPR / RGPD)
+
+Como usuario en la Unión Europea, Reino Unido o Suiza, tienes derecho a:
+
+- **Acceso:** saber qué datos tenemos sobre ti. En nuestro caso, **ninguno**:
+  no almacenamos nada en servidores propios, todo está en tu dispositivo.
+- **Rectificación:** puedes editar o corregir cualquier dato desde la propia
+  aplicación.
+- **Supresión ("derecho al olvido"):** desinstala la aplicación o borra sus
+  datos desde los ajustes del sistema; eso elimina todo lo almacenado
+  localmente, incluidos los contactos importados. Tu agenda del teléfono no se
+  ve afectada.
+- **Oposición y limitación del tratamiento:** revoca el permiso de contactos o
+  el de notificaciones desde los ajustes del sistema operativo.
+- **Portabilidad:** no aplicable, ya que no almacenamos tus datos en nuestros
+  servidores.
+- **Presentar una reclamación:** ante la Agencia Española de Protección de
+  Datos ([aepd.es](https://www.aepd.es)) o la autoridad equivalente de tu país.
+
+Para ejercer cualquier derecho, escríbenos a **miscoapps@gmail.com**.
+
+## 11. Transferencias internacionales
+
+No se producen. La aplicación no envía datos fuera de tu dispositivo, así que
+no hay transferencia internacional de datos de ningún tipo.
+
+## 12. Seguridad
+
+Toda la información se guarda localmente en tu dispositivo usando los
+mecanismos de almacenamiento estándar del sistema operativo, protegidos por el
+aislamiento entre aplicaciones que este garantiza. Al no haber comunicación con
+servidores, no existe transmisión de datos que pueda ser interceptada.
+
+## 13. Cambios en esta política
+
+Podemos actualizar esta política puntualmente. La fecha de "Última
+actualización" al inicio refleja la versión vigente. Cambios significativos se
+anunciarán en la próxima actualización de la aplicación.
+
+## 14. Contacto
+
+Para cualquier pregunta sobre esta política o sobre el tratamiento de tus
+datos, escríbenos a:
+
+**miscoapps@gmail.com**
