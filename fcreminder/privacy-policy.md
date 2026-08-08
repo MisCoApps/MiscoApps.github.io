@@ -1,4 +1,4 @@
-# Documento de Requisitos del Producto (PRD): Personal CRM App
+# Política de Privacidad - Friendly Contact Reminder
 
 ## 1. Visión General del Producto
 **Descripción:** Aplicación móvil (iOS y Android) diseñada como un "Personal CRM" (Customer Relationship Management personal) que ayuda a los usuarios a mantener el contacto regular con sus amigos, familiares o red profesional. 
