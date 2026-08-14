@@ -1,0 +1,215 @@
+# Privacy Policy — Contact Reminder
+
+**Last updated: 14 August 2026**
+
+This policy explains what data the **Contact Reminder** application ("the
+app", "we") published by **MisCo Apps** processes, and how. By using the app
+you accept this policy.
+
+## 1. Data controller
+
+- **Controller:** MisCo Apps (individual publisher).
+- **Contact:** miscoapps@gmail.com
+
+## 2. Summary: your contacts stay on your device
+
+**Your contacts never leave your phone.** The app reads them in order to work
+and stores them in a local database; we never receive them, never see them, and
+cannot recover them. The same applies to your reminders, your conversation
+history, your labels and your settings.
+
+The app **has no servers of its own**, requires no registration or account, and
+contains no advertising, no advertising trackers and no usage analytics.
+
+**The only exception is the Premium subscription.** To manage it we use an
+external provider (RevenueCat), which means an anonymous identifier and your
+subscription status do leave the device. This is explained in detail in
+**section 8**, which is the one to read if this matters to you.
+
+## 3. Data we do NOT collect
+
+Contact Reminder **requires no registration or user account**. We do not
+collect or store:
+
+- Name, email, phone number or other personally identifying information.
+- Passwords (there is no login system).
+- Your contacts, or any data derived from them.
+- The content of your reminders, notes or conversation history.
+- Location, microphone or camera (the app does not request these permissions).
+- Advertising identifiers, since we show no ads.
+- Card or payment data (see section 8).
+
+## 4. Access to your contacts
+
+The app requests the **contacts** permission (`READ_CONTACTS` on Android,
+Contacts access on iOS) because it is its core purpose: reminding you to get in
+touch with the people you choose.
+
+- **When it is requested:** only when you tap **Import contact**. If you do not
+  grant it, the rest of the app still works.
+- **What is read:** for the contacts you import, the app reads name, phone
+  numbers and emails (with their labels), the thumbnail photo, and the dates
+  attached to the contact (birthdays and anniversaries), so it can create
+  reminders.
+- **Where it is stored:** in a local database on your device (Isar). It is **not
+  transmitted to any server**, including the provider in section 8.
+- **What is NOT done:** we do not read your call log or your messages. The app
+  does not declare those permissions.
+- **How to revoke it:** from your operating system settings, at any time. You
+  can also unlink an individual contact from within the app, which deletes its
+  data from local storage without touching your phone's address book.
+
+## 5. Data stored locally on your device
+
+All of this information is stored **on your device only**. It includes:
+
+- The contacts you have imported and their data (see section 4).
+- Your reminders: frequency, fixed dates, whether they avoid weekends.
+- The conversation history you record (type, date and notes).
+- The labels you create and which contacts they are assigned to.
+- App settings (theme, language, alert times, favourite messaging app,
+  notifications enabled).
+
+This data is deleted if you uninstall the app or clear its data from your
+system settings.
+
+## 6. Local notifications
+
+The app schedules **local reminders** using your operating system's native API,
+at the time you configure. They do not pass through any external server: your
+own device schedules and displays them. A notification may include the
+contact's name and thumbnail photo, both read from local storage on the phone.
+
+You can turn them off at any time from the app's **Settings** or from your
+system settings.
+
+On Android, the app may ask you for the **alarms and reminders** permission so
+alerts arrive at the exact time you chose. This is optional: if you do not
+grant it, alerts still work, but the system may delay them.
+
+## 7. Third-party apps (calls and messaging)
+
+From a contact's page you can start a **call** or open a conversation in
+**WhatsApp, Telegram, Viber, WeChat, LINE, SMS or your email client**. At that
+moment the operating system hands the phone number or email address to the app
+you chose, and from then on **that app's privacy policy applies**, not ours.
+
+We do not send anything to those apps on our own initiative, and we do not know
+whether you end up using them: you always initiate the action.
+
+## 8. Premium subscription: the only data that leaves your device
+
+The app offers an optional **Premium subscription**. Payment is handled entirely
+by **Google Play** (or Apple's **App Store** on iOS) under their own policies:
+**we never receive or process card or payment data**.
+
+To know whether your subscription is still active (renewals, cancellations,
+trial period, expiry) we use **RevenueCat, Inc.**, a specialised provider acting
+as a **data processor** on our behalf.
+
+**What is sent to RevenueCat:**
+
+- An **anonymous identifier generated by the app** on installation. It is not
+  your name, your email or your Google account: it is a random code whose only
+  purpose is to recognise that installation.
+- Your **subscription status and purchase history** within the app: which plan
+  you have, when it renews, whether it is active or has expired.
+- **Basic technical device data** (model, operating system, app version, store
+  country), needed to process the purchase.
+
+**What is NEVER sent to RevenueCat:** your contacts, your reminders, your
+conversation history, your labels or your notes. Nothing described in sections 4
+and 5 leaves your device.
+
+- **Purpose:** solely so the app knows whether to grant you Premium features,
+  and for aggregate subscription statistics.
+- **Legal basis (GDPR):** performance of the subscription contract (art.
+  6(1)(b)). Even if you never open the Premium screen, this collection happens
+  at app startup, since it is necessary to check whether you have access.
+- **Retention:** for as long as your record exists at RevenueCat. You can ask us
+  to delete it (section 11).
+- **It is never sold or shared with third parties for advertising.** There are
+  no RevenueCat integrations with ad networks or third-party analytics tools.
+- RevenueCat's privacy policy:
+  [revenuecat.com/privacy](https://www.revenuecat.com/privacy/)
+
+## 9. Children
+
+Contact Reminder **is not directed to children under 13**. We do not knowingly
+collect personal data from children. If you believe a child has provided us
+with data, contact us and we will delete it.
+
+## 10. Your rights (GDPR)
+
+As a user in the European Union, the United Kingdom or Switzerland, you have
+the right to:
+
+- **Access:** know what data we hold about you. Outside your device, the only
+  thing that exists is the subscription record described in section 8; write to
+  us and we will tell you exactly what it contains.
+- **Rectification:** you can edit or correct any data from within the app. The
+  subscription record contains nothing rectifiable (a random identifier and
+  your purchase status).
+- **Erasure ("right to be forgotten"):** uninstalling the app or clearing its
+  data from your system settings deletes everything stored locally, including
+  imported contacts; your phone's address book is not affected. To also delete
+  the subscription record, see **section 11**.
+- **Objection and restriction of processing:** revoke the contacts or
+  notifications permission from your operating system settings.
+- **Portability:** you may request the subscription record in a readable
+  format. The rest of your data is already on your device, under your control.
+- **Lodging a complaint:** with the Spanish Data Protection Agency
+  ([aepd.es](https://www.aepd.es)) or the equivalent authority in your country.
+
+To exercise any right, write to us at **miscoapps@gmail.com**.
+
+## 11. How to request deletion of your data
+
+**On your device:** uninstall the app or clear its data from your system
+settings. That immediately and permanently removes everything described in
+sections 4 and 5. Your phone's address book is not affected.
+
+**The subscription record (section 8):** write to **miscoapps@gmail.com** with
+the subject *"Data deletion"*. We will delete your RevenueCat record **within a
+maximum of 30 days** and confirm it by email. You do not need to give us any
+personal data to request it.
+
+⚠️ Note that deleting that record **does not cancel your subscription**:
+subscriptions are managed and cancelled from your Google Play (or Apple)
+account, not here. If you delete the record while a subscription is active, the
+app may stop recognising your Premium access until you use the **Restore
+purchases** option.
+
+## 12. International transfers
+
+The provider described in section 8 (**RevenueCat, Inc.**) is based in the
+**United States**, so the data in that section — and only that data — is
+transferred outside the European Economic Area. The transfer relies on the
+safeguards provided for by the GDPR in such cases (European Commission standard
+contractual clauses and/or the EU–US Data Privacy Framework).
+
+**No other data is transferred:** your contacts and everything described in
+sections 4 and 5 never leave your device, so no international transfer affects
+them.
+
+## 13. Security
+
+Information stored on your device uses the operating system's standard storage
+mechanisms, protected by the inter-app isolation it guarantees.
+
+The data in section 8 travels **encrypted in transit** (HTTPS/TLS) to the
+provider's servers. As there is no user account or password, there are no
+credentials of yours that could be compromised.
+
+## 14. Changes to this policy
+
+We may update this policy from time to time. The "Last updated" date at the top
+reflects the version in force. Significant changes will be announced in the
+app's next update.
+
+## 15. Contact
+
+For any question about this policy or about how we process your data, write to
+us at:
+
+**miscoapps@gmail.com**
