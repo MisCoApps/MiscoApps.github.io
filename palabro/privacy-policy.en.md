@@ -2,12 +2,6 @@
 
 **Last updated: June 16, 2026**
 
-> **Internal note:** this file is the **English master template** drafted
-> in the 2026-05-26 session and updated on 2026-06-16 (added Crashlytics
-> and Play Games, and in-app consent withdrawal). Content to paste into
-> `MiscoApps/MiscoApps.github.io` as `palabro/privacy-policy.en.md`.
-> Final public URL: `https://miscoapps.github.io/palabro/privacy-policy.en`.
-
 This policy describes the data handled by the **PalaBro** application
 ("the app", "we"), published by **MisCo Apps**, and how we handle it.
 By using the app you accept this policy.
