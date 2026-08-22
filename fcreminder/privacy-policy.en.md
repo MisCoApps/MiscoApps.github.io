@@ -1,8 +1,8 @@
-# Privacy Policy — Contact Reminder
+# Privacy Policy — Friendly Contact Reminder
 
 **Last updated: 21 August 2026**
 
-This policy explains what data the **Contact Reminder** application ("the
+This policy explains what data the **Friendly Contact Reminder** application ("the
 app", "we") published by **MisCo Apps** processes, and how. By using the app
 you accept this policy.
 
@@ -36,7 +36,7 @@ read section 10.
 
 ## 3. Data we do NOT collect
 
-Contact Reminder **requires no registration or user account**. We do not collect
+Friendly Contact Reminder **requires no registration or user account**. We do not collect
 or store on any system of ours:
 
 - Name, email, phone number or any other personally identifying data.
@@ -150,7 +150,7 @@ revoke access from your Google account at
 Disconnecting does not delete backups already in your Drive: you can remove them
 yourself from Drive whenever you want (section 13).
 
-**Limited Use of Google API data:** Contact Reminder's use of information
+**Limited Use of Google API data:** Friendly Contact Reminder's use of information
 received from Google APIs adheres to the [Google API Services User Data
 Policy](https://developers.google.com/terms/api-services-user-data-policy),
 including its **Limited Use** requirements. Specifically: that data is used only
@@ -219,7 +219,7 @@ and 5 reaches this provider, not even if you use the backups in sections 6 and 7
 
 ## 11. Children
 
-Contact Reminder is **not directed at children under 13**. We do not knowingly
+Friendly Contact Reminder is **not directed at children under 13**. We do not knowingly
 collect personal data from children. If you believe a child has provided us with
 data, contact us and we will delete it.
 
