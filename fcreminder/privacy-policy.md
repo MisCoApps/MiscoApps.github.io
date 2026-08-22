@@ -1,8 +1,8 @@
-# Política de Privacidad — Contact Reminder
+# Política de Privacidad — Friendly Contact Reminder
 
 **Última actualización: 21 de agosto de 2026**
 
-Esta política explica qué datos trata la aplicación **Contact Reminder** ("la
+Esta política explica qué datos trata la aplicación **Friendly Contact Reminder** ("la
 aplicación", "nosotros"), publicada por **MisCo Apps**, y cómo lo hace.
 Al usar la aplicación aceptas esta política.
 
@@ -36,7 +36,7 @@ lee la 10.
 
 ## 3. Datos que NO recogemos
 
-Contact Reminder **no requiere registro ni cuenta de usuario**. No recogemos ni
+Friendly Contact Reminder **no requiere registro ni cuenta de usuario**. No recogemos ni
 almacenamos en ningún sistema nuestro:
 
 - Nombre, email, teléfono ni otros datos que te identifiquen personalmente.
@@ -232,7 +232,7 @@ seguridad de las secciones 6 y 7.
 
 ## 11. Menores
 
-Contact Reminder **no está dirigida a menores de 13 años**. No recogemos
+Friendly Contact Reminder **no está dirigida a menores de 13 años**. No recogemos
 deliberadamente datos personales de menores. Si crees que un menor nos ha
 proporcionado datos, contacta con nosotros y los eliminaremos.
 
