@@ -2,14 +2,6 @@
 
 **Última actualización: 24 de agosto de 2026**
 
-> **Nota interna:** este fichero es la **plantilla maestra** en castellano.
-> Redactada en la sesión 2026-05-26, actualizada el 2026-06-16 (Crashlytics,
-> Play Juegos, revocación de consentimiento) y el **2026-08-24** (migración de
-> AdMob a Unity LevelPlay, alta de Firebase Analytics, compras reales y el
-> registro de canje en servidor). Contenido para pegar en
-> `MiscoApps/MiscoApps.github.io` como `palabro/privacy-policy.md`.
-> URL pública final: `https://miscoapps.github.io/palabro/privacy-policy`.
-
 Esta política explica qué datos trata la aplicación **PalaBro** ("la
 aplicación", "nosotros"), publicada por **MisCo Apps**, y cómo lo hace.
 Al usar la aplicación aceptas esta política.
