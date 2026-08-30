@@ -1,6 +1,6 @@
 # Privacy Policy — Friendly Contact Reminder
 
-**Last updated: 21 August 2026**
+**Last updated: 30 August 2026**
 
 This policy explains what data the **Friendly Contact Reminder** application ("the
 app", "we") published by **MisCo Apps** processes, and how. By using the app
@@ -14,13 +14,20 @@ you accept this policy.
 ## 2. Summary: we never receive your data
 
 The app **has no servers of its own**, requires no registration or account, and
-contains no advertising, no advertising trackers and no usage analytics. **Your
+contains no advertising and no advertising trackers. **Your
 contacts, your reminders, your conversation history, your labels and your notes
 never reach us**: we do not receive them, we do not see them, and we could not
 recover them even if we wanted to.
 
-By default, all of it also **stays inside your phone**. There are three
-exceptions, and all three are your decision:
+We do receive two technical, anonymous things about the app itself: the **crash
+reports** in section 11 and some **usage statistics** in section 12 that tell us
+which features get used and which do not. Neither carries your data — they count
+**what broke** and **which button was tapped**, never who you contact or what you
+wrote — both are anonymous, and both are turned off by the same switch:
+**Settings → Help → "Help improve the app"**.
+
+By default, all of it also **stays inside your phone**. There are five
+exceptions, and all five are your decision:
 
 1. **The backup file** (section 6): if you use it, your data is written to the
    destination you choose.
@@ -29,10 +36,16 @@ exceptions, and all three are your decision:
 3. **The Premium subscription** (section 10): to know whether your subscription
    is still active we use an external provider, which means an anonymous
    identifier and your purchase status do leave the device.
+4. **Crash reports** (section 11): if the app closes on its own or something
+   breaks inside it, a technical report about **that failure** is sent so we can
+   fix it. You can turn them off at any time in **Settings → Help → "Help
+   improve the app"**.
+5. **Usage statistics** (section 12): which features get used and which do not,
+   as anonymous counters. They are turned off by **the same switch** as crash
+   reports.
 
-The first two send data **somewhere that belongs to you**; the third is the only
-one involving a third party acting on our behalf. If you only read one section,
-read section 10.
+The first two send data **somewhere that belongs to you**; the last three
+involve a third party acting on our behalf.
 
 ## 3. Data we do NOT collect
 
@@ -50,7 +63,8 @@ or store on any system of ours:
 ⚠️ This means **we** do not collect them. If you enable backups (sections 6 and
 7), that data does leave your device, but it goes **to a destination of yours**
 — a file you store, or your own Google Drive account — never to a system of
-ours.
+ours. Neither the crash reports in section 11 nor the usage statistics in
+section 12 contain anything from this list.
 
 ## 4. Access to your contacts
 
@@ -148,7 +162,7 @@ is optional and stays off unless you turn it on.
 revoke access from your Google account at
 [myaccount.google.com/permissions](https://myaccount.google.com/permissions).
 Disconnecting does not delete backups already in your Drive: you can remove them
-yourself from Drive whenever you want (section 13).
+yourself from Drive whenever you want (section 15).
 
 **Limited Use of Google API data:** Friendly Contact Reminder's use of information
 received from Google APIs adheres to the [Google API Services User Data
@@ -181,7 +195,7 @@ you chose, and from then on **that app's privacy policy** applies, not ours.
 We do not send anything to those apps on our own initiative, nor do we know
 whether you end up using them: you always initiate the action.
 
-## 10. Premium subscription: the only data we process off your device
+## 10. Premium subscription (RevenueCat)
 
 The app offers an optional **Premium subscription**. Payment is handled entirely
 by **Google Play** (or Apple's **App Store** on iOS) under their own policies:
@@ -211,37 +225,129 @@ and 5 reaches this provider, not even if you use the backups in sections 6 and 7
   If you never open the Premium section, this collection still happens at app
   startup, since it is necessary to check whether you have access.
 - **Retention:** for as long as your record exists in RevenueCat. You can ask us
-  to delete it (section 13).
+  to delete it (section 15).
 - **It is not sold or shared with third parties for advertising purposes.** There
   are no RevenueCat integrations with ad networks or third-party analytics tools.
 - RevenueCat's privacy policy:
   [revenuecat.com/privacy](https://www.revenuecat.com/privacy/)
 
-## 11. Children
+## 11. Crash reports (Firebase Crashlytics)
+
+When the app closes unexpectedly or something breaks inside it, a **technical
+report about that failure** is sent to **Firebase Crashlytics**, a service run by
+**Google Ireland Limited** acting as a **data processor** on our behalf. It
+serves one purpose: letting us find out that something broke on a phone we do
+not have in front of us, so we can fix it.
+
+**What is sent:**
+
+- The **error type and the technical stack trace** of the point in the program
+  where it happened.
+- **Device and app data**: model, operating system version, app version, device
+  language and country.
+- The **state of the device at that moment**: available memory and storage,
+  screen orientation, whether the app was in the foreground and how long it had
+  been open.
+- A **random identifier generated by Crashlytics** for that installation, which
+  tells us whether the same failure hits many people or hits one person a
+  thousand times. It is not your name, your email or your Google account, and we
+  cannot link it to you.
+
+**What is never sent:** your contacts, their names, phone numbers or email
+addresses, your reminders, your conversation history, your labels or your notes.
+A crash report describes **the state of the program**, not your data, and the app
+never includes any of it in what it sends.
+
+- **Purpose:** finding and fixing errors, and knowing how many people each one
+  affects so we can prioritise. It is not used to profile you, to advertise to
+  you, or to measure your use of the app.
+- **Legal basis (GDPR):** legitimate interest (art. 6(1)(f)) in keeping the app
+  working and secure. Since that interest is ours and not yours, the switch below
+  lets you object without giving any reason.
+- **How to turn it off:** **Settings → Help → "Help improve the app"**. Reports
+  stop being sent immediately; nothing needs restarting or updating.
+- **Retention:** Google deletes the reports **after 90 days**.
+- Google's privacy policy:
+  [policies.google.com/privacy](https://policies.google.com/privacy) · data
+  collected by Crashlytics:
+  [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy)
+
+## 12. Usage statistics (Firebase Analytics)
+
+To know which parts of the app actually get used — and which nobody cares about
+— we send **anonymous counters** to **Firebase Analytics**, a service of
+**Google Ireland Limited** acting as a **data processor** on our behalf.
+
+**What is sent:**
+
+- That a **specific action** happened, identified by a fixed name we write
+  ourselves: for example *"a contact was imported"*, *"a conversation was
+  logged"*, *"the calendar was opened"* or *"the subscription screen was
+  opened"*. It is a counter: the action and nothing else.
+- **Device and app data**: model, operating system version, app version,
+  language and approximate country inferred from the connection.
+- A **random identifier generated by Analytics** for that installation, used so
+  the same person is not counted a thousand times. It is not your name, your
+  email or your Google account, and we cannot link it to you. If you clear the
+  app's data or reinstall it, that identifier **is replaced by a new one**.
+- Whether or not you have the Premium subscription, as a plain *yes/no*.
+
+**What is NEVER sent:** your contacts, their names, phone numbers or emails,
+your reminders, your conversation history, your labels or your notes. The action
+names are a closed list written by us; nothing you type into the app goes in
+there.
+
+**There are no advertising identifiers either.** The app **expressly removes**
+the advertising ID permission that libraries of this kind usually bring along,
+and disables ad personalisation signals. There are no ads, no campaign
+attribution and no profiling.
+
+- **Why:** to decide what to improve and what to drop, and to understand where
+  people get stuck. It is always read **in aggregate**, never person by person,
+  because there is no person to look at.
+- **Legal basis (GDPR):** legitimate interest (art. 6(1)(f)) in improving the
+  app. Since that interest is ours and not yours, the switch on the next line is
+  your right to object.
+- **How to turn it off:** **Settings → Help → "Help improve the app"**, the same
+  switch that turns off crash reports. Once off, nothing is sent, immediately; no
+  restart or update needed.
+- **How long it is kept:** **14 months** from that installation's last activity.
+  After that, Google deletes the data automatically.
+- Google's privacy policy:
+  [policies.google.com/privacy](https://policies.google.com/privacy) · data
+  collected by Analytics:
+  [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy)
+
+## 13. Children
 
 Friendly Contact Reminder is **not directed at children under 13**. We do not knowingly
 collect personal data from children. If you believe a child has provided us with
 data, contact us and we will delete it.
 
-## 12. Your rights (GDPR / UK GDPR)
+## 14. Your rights (GDPR / UK GDPR)
 
 As a user in the European Union, the United Kingdom or Switzerland, you have the
 right to:
 
-- **Access:** know what data we hold about you. Outside your device, the only
-  thing that exists **on a system of ours** is the subscription record described
-  in section 10; write to us and we will tell you exactly what it contains. The
-  backups in sections 6 and 7 are in your hands, not ours.
+- **Access:** know what data we hold about you. Outside your device only three
+  things are processed on our behalf: the **subscription record** in section 10,
+  the **crash reports** in section 11 and the **usage statistics** in section 12;
+  write to us and we will tell you exactly what the first one contains. We cannot
+  hand you "yours" for the other two, because they are not tied to your identity
+  (see section 15). The backups in sections 6 and 7 are in your hands, not ours.
 - **Rectification:** you can edit or correct any data from within the app. The
   subscription record contains nothing you could rectify (it is a random
   identifier and your purchase status).
 - **Erasure ("right to be forgotten"):** uninstalling the app or clearing its
   data from system settings removes everything stored locally, including
   imported contacts; your phone's address book is unaffected. To also delete the
-  subscription record and the Drive backups, see **section 13**.
+  subscription record and the Drive backups, see **section 15**.
 - **Objection and restriction of processing:** revoke the contacts or
-  notifications permission from your operating system settings, and disconnect
-  Drive backup from Settings.
+  notifications permission from your operating system settings, disconnect Drive
+  backup from Settings, and turn off crash reports and usage statistics in
+  **Settings → Help → "Help improve the app"**. That switch is, specifically,
+  your right to object to the only two kinds of processing we carry out under
+  legitimate interest.
 - **Portability:** the backup file in section 6 is, precisely, a complete export
   of your data in a machine-readable format. You can also request the
   subscription record from us.
@@ -250,7 +356,7 @@ right to:
 
 To exercise any right, write to **miscoapps@gmail.com**.
 
-## 13. How to request deletion of your data
+## 15. How to request deletion of your data
 
 **On your device:** uninstall the app or clear its data from system settings.
 That immediately and permanently removes everything described in sections 4 and
@@ -269,19 +375,40 @@ the subject *"Data deletion"*. We will delete your RevenueCat record **within a
 maximum of 30 days** and confirm it by email. You do not need to give us any
 personal data to request it.
 
+**Crash reports (section 11):** ⚠️ we have to be honest here: **reports from one
+specific person cannot be deleted**. They are not tied to your identity but to a
+random installation identifier we cannot link to you, so there is no way to look
+up "yours". What you can do is **turn them off in Settings**, and they stop being
+sent immediately; any already sent are deleted automatically after 90 days.
+
+**Usage statistics (section 12):** same case, same honesty. Google **does** allow
+deleting the data of one specific installation, but only if you know the random
+identifier Analytics assigned to it — and that identifier is shown to nobody:
+you cannot see it and we cannot know which one is yours. What does work: **turn
+them off in Settings** (nothing is sent from that moment on) and **clear the
+app's data or reinstall it** — that replaces the identifier with a new one and
+orphans the old one for good. Whatever was already sent is deleted on its own
+**after 14 months**.
+
 ⚠️ Note that deleting that record **does not cancel your subscription**:
 subscriptions are managed and cancelled from your Google Play (or Apple)
 account, not from here. If you delete the record while a subscription is active,
 the app may stop recognising your Premium access until you use the **Restore
 purchases** option.
 
-## 14. International transfers
+## 16. International transfers
 
 The provider described in section 10 (**RevenueCat, Inc.**) is based in the
 **United States**, so the data in that section is transferred outside the
 European Economic Area. The transfer relies on the safeguards provided by the
 GDPR for such cases (European Commission standard contractual clauses and/or the
 EU–US Data Privacy Framework).
+
+The **crash reports** (section 11) and the **usage statistics** (section 12) are
+processed by **Google Ireland Limited**, but may be stored and processed on
+**Google LLC** servers in the **United States** and in other countries where
+Google operates, under the same GDPR safeguards (standard contractual clauses
+and/or the EU–US Data Privacy Framework).
 
 If you enable **Google Drive** backup (section 7), your data is stored on
 **Google's** infrastructure, which may also process it outside the EEA under its
@@ -291,26 +418,27 @@ neither take part in it nor receive anything.
 **No other data is transferred:** if you do not use backups, everything
 described in sections 4 and 5 stays on your device.
 
-## 15. Security
+## 17. Security
 
 Information stored on your device uses the operating system's standard storage
 mechanisms, protected by the app isolation it guarantees.
 
-The data in section 10 travels **encrypted in transit** (HTTPS/TLS) to the
-provider's servers, and the same applies to the Google Drive upload in section
+The data in sections 10, 11 and 12 travels **encrypted in transit** (HTTPS/TLS) to
+the relevant provider's servers, and the same applies to the Google Drive upload
+in section
 7. As there is no user account or password belonging to the app, there are no
 credentials of ours that could be compromised.
 
 ⚠️ **The backup file is not encrypted** (sections 6 and 7): it is compressed,
 which is not the same thing. Its security depends on where you store it.
 
-## 16. Changes to this policy
+## 18. Changes to this policy
 
 We may update this policy from time to time. The "Last updated" date at the top
 reflects the current version. Significant changes will be announced in the next
 app update.
 
-## 17. Contact
+## 19. Contact
 
 For any questions about this policy or about how your data is processed, write
 to us at:
